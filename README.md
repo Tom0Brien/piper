@@ -12,7 +12,7 @@ echo 'Welcome to the world of speech synthesis!' | \
 
 Voices are trained with [VITS](https://github.com/jaywalnut310/vits/) and exported to the [onnxruntime](https://onnxruntime.ai/).
 
-This is a project of the [Open Home Foundation](https://www.openhomefoundation.org/).
+[![A library from the Open Home Foundation](https://www.openhomefoundation.org/badges/ohf-library.png)](https://www.openhomefoundation.org/)
 
 ## Voices
 
@@ -23,6 +23,7 @@ Our goal is to support Home Assistant and the [Year of Voice](https://www.home-a
 * Arabic (ar_JO)
 * Catalan (ca_ES)
 * Czech (cs_CZ)
+* Welsh (cy_GB)
 * Danish (da_DK)
 * German (de_DE)
 * Greek (el_GR)
@@ -140,6 +141,7 @@ Piper has been used in the following projects/papers:
 * [Lernstick EDU / EXAM: reading clipboard content aloud with language detection](https://lernstick.ch/)
 * [Natural Speech - A plugin for Runelite, an OSRS Client](https://github.com/phyce/rl-natural-speech)
 * [mintPiper](https://github.com/evuraan/mintPiper)
+* [Vim-Piper](https://github.com/wolandark/vim-piper)
 
 ## Training
 
@@ -176,4 +178,3 @@ If you'd like to use a GPU, install the `onnxruntime-gpu` package:
 ```
 
 and then run `piper` with the `--cuda` argument. You will need to have a functioning CUDA environment, such as what's available in [NVIDIA's PyTorch containers](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch).
-
